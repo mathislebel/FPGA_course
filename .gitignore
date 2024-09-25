@@ -1,0 +1,41 @@
+# Fichiers de sortie des outils de synthèse et de simulation
+*.ngc
+*.ngd
+*.ncd
+*.drc
+*.xdc
+*.bit
+*.bin
+*.prj
+*.synth
+*.srp
+
+# Fichiers de log
+*.log
+*.rpt
+*.jou
+*.tcl
+
+# Fichiers de projet IDE
+*.xpr
+*.xproj
+*.cache
+*.sdc
+
+# Répertoires temporaires
+temp/
+tmp/
+output/
+
+# fichiers de backup
+*~
+*.bak
+
+# Autres fichiers spécifiques
+*.svf
+*.sv
+*.vcd
+
+# Ignore tous les fichiers de configuration utilisateur
+*.user
+*.prefs
