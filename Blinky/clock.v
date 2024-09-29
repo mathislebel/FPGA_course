@@ -50,7 +50,7 @@ module CLOCK (
         end
             if (units == 4'b1001) begin
                 units <= 4'b0000;  
-                if (tens == 4'b0110) begin
+                if (tens == 4'b0101) begin
                     tens <= 4'b0000;  
                 end else begin
                     tens <= tens + 1;  

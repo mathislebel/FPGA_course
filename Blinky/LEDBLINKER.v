@@ -15,11 +15,11 @@ module LedBlinker
    begin
      LED1 = ~LED1;
    end
-   if (count == 23'd8000000)
+   if (count == 23'd4000000)
    begin
      LED2 = ~LED2;
    end
-   if (count == 23'd2000000)
+   if (count == 23'd6000000)
    begin
      LED3 = ~LED3;
    end
